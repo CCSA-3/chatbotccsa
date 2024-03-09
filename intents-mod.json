@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help you?",
+        "Hello there, feel free to ask questions"
+      ]
+    },
+    {
+      "tag": "Inquiry-Enrollment",
+      "patterns": [
+        "How do I enroll?",
+        "What is the enrollment process?",
+        "What is the application process?",
+        "What is the admission process?"
+    ],
+      "responses": [
+        "Before you proceed to enrollment process we provided two options for you, Online and in person. Which one do you want? Just type the following:\n 1.Online Enrollment\n 2.In Person Enrollment"
+      ]
+    },
+    {
+      "tag": "Online Enrollment",
+      "patterns": [
+        "Online Enrollment"
+      ],
+      "responses": [
+        "thank you for your your response, You may click the link to proceed to enrollment process."
+      ]
+    },
+    {
+      "tag": "In Person Enrollment",
+      "patterns": [
+        "Make sure you bring the following documents:\n 2x2 ID picture\n SHS Card\n"
+      ]
+    }
+  ]
+}
